@@ -4,7 +4,7 @@ public class Config {
 	public static String [] videoFormat = new String[]{"avi", "mp4", "flv"};
 	public static String [] imageFormat = new String[]{"jpeg", "jpg", "gif", "png"};
 
-	public static String workingDirectory = "D:\\Work\\worksKepler\\FileZipMaker\\testZip";
+	public static String workingDirectory = "D:\\Work\\worksKepler\\ZipFileMaker\\testZip";
 
 	public static String imageZip;
 	public static String audioZip;
