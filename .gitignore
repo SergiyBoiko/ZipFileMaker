@@ -3,3 +3,4 @@ testZip/
 
 #ignore zip file
 *.zip
+*.class 

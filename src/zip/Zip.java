@@ -16,14 +16,13 @@ import java.util.zip.ZipOutputStream;
 import config.Config;
 import filters.Filter;
 
-public class Zip {
+public abstract class Zip {
 	public String outPathDirectorie(){
 		return "path";
 	}
 
-	public FileFilter fileFilter(){
-		return null;
-	}
+	public abstract FileFilter fileFilter();
+	
 	void zipAddFiles(ZipOutputStream out){
 		try{
 			System.out.println("Write to the archive: "+outPathDirectorie());
