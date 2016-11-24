@@ -1,0 +1,6 @@
+#ignore workDirectorie
+testZip/
+
+#ignore zip file
+
+ZipFileMaker/*.zip
