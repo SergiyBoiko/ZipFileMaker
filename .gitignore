@@ -2,5 +2,4 @@
 testZip/
 
 #ignore zip file
-
-ZipFileMaker/*.zip
+*.zip
